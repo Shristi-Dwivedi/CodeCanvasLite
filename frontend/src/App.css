@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.editor-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.editor {
+  width: 100%;
+  height: 250px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  resize: none;
+}
+
+.editor:focus {
+  border-color: #4f46e5;
+}
+
+.run-btn {
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.run-btn:hover {
+  background: #4338ca;
+}
+
+.output-section {
+  margin-top: 20px;
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.output-section h3 {
+  margin-top: 0;
+}
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
